@@ -9,3 +9,9 @@
     <script src="/index.jsx" type="module"></script>
   </body>
 </html>
+
+{Object.entries(van).map(([key, value])=>
+<div className="eachVan">
+  {<img src = {{van[imageUrl]}} alt = {{van[name]}} }
+</div>
+)}
