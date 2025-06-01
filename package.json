@@ -1,6 +1,6 @@
 {
-  "name": "Scrim-s04sl18",
-  "description": "https://scrimba.com/advanced-react-c02h/~02e",
+  "name": "Scrim-s04sl5a",
+  "description": "https://scrimba.com/advanced-react-c02h/~040",
   "scripts": {
     "start": "vite",
     "dev": "vite",
@@ -8,10 +8,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "miragejs": "^0.1.48",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-router-dom": "6.4.3",
+    "miragejs": "0.1.46",
     "vite": "latest"
   },
   "devDependencies": {
