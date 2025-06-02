@@ -56,16 +56,6 @@ header a:hover {
     text-decoration: underline;
 }
 
-header .login-icon {
-    height: 18px;
-    width: 18px;
-}
-
-header .login-link {
-    display: inline-flex;
-    align-items: center;
-}
-
 nav {
     display: flex;
 }
@@ -112,6 +102,16 @@ footer {
 
 .link-button:hover {
     transform: translate(1px, 1px);
+}
+
+header .login-icon {
+    height: 18px;
+    width: 18px;
+}
+
+header .login-link {
+    display: inline-flex;
+    align-items: center;
 }
 
 /*** HOME PAGE ***/
@@ -529,4 +529,8 @@ i[class*='van-type-'] {
     margin-top: 22px;
     color: white;
     font-family: "Inter", sans-serif;
+}
+
+.login-error {
+    color: red;
 }
