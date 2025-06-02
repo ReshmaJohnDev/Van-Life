@@ -14,8 +14,8 @@ export default function VanDetail() {
             .then(data => setVan(data.vans))
     }, [params.id])
 
-    const search = location.state?.search || "";
-    const type = location.state?.type || "all";
+    const search = location.state?.search || ""
+    const type = location.state?.type || "all"
     
     return (
         <div className="van-detail-container">
